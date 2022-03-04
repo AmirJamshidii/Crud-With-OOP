@@ -2,7 +2,7 @@
     session_start();
     require_once('./config/operations.php');
 
-    class dbconfig{
+    class Dbconfig{
         public $connection;
 
         public function __construct(){

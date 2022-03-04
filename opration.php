@@ -2,9 +2,9 @@
 
     
     require_once('./config/dbconfig.php');
-    $db = new dbconfig();
+    $db = new Dbconfig();
 
-    class operations extends dbconfig{
+    class Operations extends Dbconfig{
         // insert record in the database
         public function Store_Record(){
             global $db;

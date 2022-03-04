@@ -1,7 +1,7 @@
 <?php 
     
     require_once('./config/dbconfig.php'); 
-    $db = new operations();
+    $db = new Operations();
     $result = $db -> view_record();
 ?>
 <!DOCTYPE html>

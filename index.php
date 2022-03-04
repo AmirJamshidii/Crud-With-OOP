@@ -1,6 +1,6 @@
 <?php 
     require_once('./config/dbconfig.php'); 
-    $db = new operations();
+    $db = new Operations();
 ?>
 <!DOCTYPE html>
 <html lang="en">
